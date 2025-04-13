@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/costaTunes/static/css/main.9f61eb46.css",
-    "main.js": "/costaTunes/static/js/main.ac9123fa.js",
+    "main.js": "/costaTunes/static/js/main.fc94a419.js",
     "index.html": "/costaTunes/index.html",
     "main.9f61eb46.css.map": "/costaTunes/static/css/main.9f61eb46.css.map",
-    "main.ac9123fa.js.map": "/costaTunes/static/js/main.ac9123fa.js.map"
+    "main.fc94a419.js.map": "/costaTunes/static/js/main.fc94a419.js.map"
   },
   "entrypoints": [
     "static/css/main.9f61eb46.css",
-    "static/js/main.ac9123fa.js"
+    "static/js/main.fc94a419.js"
   ]
 }
