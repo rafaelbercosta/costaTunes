@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Route, HashRouter, Switch } from 'react-router-dom';
 import Login from './components/Login';
 import Search from './components/Search';
 import Album from './components/Album';
@@ -11,7 +11,7 @@ import NotFound from './components/NotFound';
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <h1>CostaTunes</h1>
         <Switch>
           <Route exact path="/" component={ Login } />
@@ -23,7 +23,7 @@ class App extends React.Component {
           <Route component={ NotFound } />
         </Switch>
 
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
